@@ -1,0 +1,82 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem;
+}
+
+body {
+  display: flex;
+  height: 80vh;
+}
+
+.container-pai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  padding: 5px;
+  background-color:#C3BCF9 ;
+  width: 250px;
+  height: 250px;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-titulo img {
+  padding: 2px;
+}
+
+.logo-titulo h1 {
+  color: #675EEF;
+}
+
+.input-result {
+  width: 150px;      
+  height: 10px;       
+  padding: 10px;      
+  border-radius: 6px; 
+  border: 1px solid #ccc;
+}
+
+.input-text{
+  width: 150px;      
+  height: 10px;       
+  padding: 10px;      
+  border-radius: 6px; 
+  border: 1px solid #ccc;
+}
+
+.container-button,
+.container-button2,
+.container-button3 {
+  width: 200px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: #BFEFFF;
+}
+
+.link-acessar {
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+
+.link-acessar h3 {
+  text-align: center;
+  color: black;
+}
