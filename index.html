@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Extensão TT</title>
+  </head>
+  <body>
+    <div class="container-pai">
+      <header class="cabecalho">
+        <div class="logo-titulo">
+          <img src="./icons/vetor16.png" alt="logo" />
+          <h1>TRANSFORME textos</h1>
+        </div>
+      </header>
+      <input
+        type="text"
+        name="text"
+        id="input-text"
+        class="input-text"
+        maxlength="500"
+        placeholder="Digite o texto aqui"
+        required
+      />
+      <div class="container-button">
+        <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+        <button type="button" class="btn" id="btnMinuscula">minúsculas</button>
+      </div>
+      <div class="container-button2">
+        <button type="button" class="btn" id="btnPrimeiraLetra">Primeira Letra</button>
+        <button type="button" class="btn" id="btnLimpar">Limpar</button>
+      </div>
+      <div class="container-button3">
+        <button type="button" class="btn" id="btnInverter">Inverter</button>
+      </div>
+      <input 
+      type="text" 
+      name="text" 
+      id="result" 
+      class="input-result" 
+      placeholder="Resultado:" 
+      />
+
+      <div class="link-acessar">
+        <h3>Para mais opções, visite:</h3>
+        <a href="link">vitorialeite.com.br</a>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
